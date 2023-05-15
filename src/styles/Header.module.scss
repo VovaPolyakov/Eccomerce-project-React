@@ -1,0 +1,57 @@
+$black: #000000;
+$grey: #DBDBDB;
+
+
+.header{
+    
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        .header_row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 0;
+            width: 100%;
+            .header_search {
+                width: 50%;
+                display: flex;
+                align-items: center;
+                button{
+                    border: none;
+                    outline: none;
+                    background: $grey;
+                    padding: 6px 15px ;
+                    cursor: pointer;
+                }
+                input{
+                    background: $grey;
+                    cursor: pointer;
+                    width: 100%;
+                    padding: 6px 0 ;
+                    border: none;
+                    outline: none;
+                    font-size: 20px;
+                    &::placeholder {
+                        font-family: 'PT Mono';
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 22px;
+                        color: #000000;
+                      }
+                }
+            }
+            .header_lan{
+                font-family: 'PT Mono';
+                background: $black;
+                padding: 7px 10px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                color: #FFFFFF;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}
