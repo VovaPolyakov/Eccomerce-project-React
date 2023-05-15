@@ -7,7 +7,9 @@ const NavBar = () => {
   
   return (
     <div className={styles.header}>
-
+      <div className={styles.container}>
+        fgdfd
+      </div>
     </div>
   )
 }
