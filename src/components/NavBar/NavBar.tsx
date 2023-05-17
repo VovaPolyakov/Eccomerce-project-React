@@ -1,22 +1,18 @@
 import React from 'react'
-import styles from '../../styles/Header.module.scss'
-import logo from '../../assets/images/logo.png'
-import search from '../../assets/images/search.png'
+import { Link } from 'react-router-dom'
+import styles from '../../styles/NavBar.module.scss'
+import {links} from '../../assets/links/index'
 
 const NavBar = () => {
   return (
-    <div className={styles.header}>
-      <div className={styles.container}>
-        <div className={styles.header_row}>
-            <div className={styles.header_logo}>
-                <img src={logo} alt='logo'></img>
-            </div>
-            <div className={styles.header_search}>
-                <button><img src={search} alt='search'></img></button>
-                <input type='text' placeholder='Поиск'></input>
-            </div>
-            <button className={styles.header_lan}>BY</button>
-        </div>
+    <div className={styles.nav}>
+      <div className={styles.nav_row}>
+        <ul className={styles.nav_menu}>
+          {links.map((link) => (
+            <li className={styles.nav_link} key={link.name}><Link to={link.link}>{link.name}</Link></li>
+          ))}
+          <button className={styles.nav_button}>Войти</button>
+        </ul>
       </div>
     </div>
   )
