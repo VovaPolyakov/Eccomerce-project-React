@@ -1,0 +1,44 @@
+.nav{
+    .nav_row{
+        .nav_menu{
+            text-align: left;
+            padding: 0;
+            .nav_link{
+                list-style: none;
+                padding: 15px 0;
+                a{
+                    list-style: none;
+                    text-decoration: none;
+                    font-family: 'PT Mono';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 22px;
+                    color: #000000
+
+                }
+                a:hover{
+                    font-family: 'PT Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 22px;
+                    color: #000000;
+                }
+            }
+            .nav_button{
+                margin-top: 15px;
+                padding: 8px 55px;
+                background: #000000;
+                font-family: 'PT Mono';
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 22px;
+                border: none;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
