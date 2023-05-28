@@ -4,6 +4,7 @@ import { Routes ,Route } from 'react-router-dom';
 import About from "../About/About";
 import Concept from "../Concept/Concept"
 import Contacts from "../Contacts/Contacts"
+import Shop from "../Shop/Shop";
 
 const Main = () => {
   return (
@@ -15,7 +16,7 @@ const Main = () => {
         <Route path='/socia-lvalue'/>
         <Route path='/services'/>
         <Route path='/contacts' element={<Contacts/>}/> 
-        <Route path='/shop'/>
+        <Route path='/shop' element={<Shop/>}/>
     </Routes>
   )
 }
