@@ -1,0 +1,33 @@
+.concept {
+    .concept_text {
+        display: inline-block;
+        margin-right: 120px;
+        .concept_text1 {
+            width: 274px;
+            height: 312px;
+            margin-left: 290px;
+            margin-top: 40px;
+            font-family: 'PT Mono';
+            font-style: normal;
+            font-size: 25px;
+            line-height: 28px;
+            text-align: right;
+        }
+        .concept_text2 {
+            width: 307px;
+            height: 252px;
+            margin-left: 260px;
+            margin-top: 50px;
+            font-family: 'PT Mono';
+            font-style: normal;
+            font-size: 25px;
+            line-height: 28px;
+            text-align: right;
+        }
+    }
+    .death {
+        width: 346px;
+        height: 633px;
+        display: inline-block;
+    }
+}
