@@ -19,7 +19,7 @@ const Contacts = () => {
         wechat 
     </div>
        </div>
-       <img src={art} className="art" alt=''></img> 
+       <img src={art} className="art" alt=''/> 
        </div>
 
   )
