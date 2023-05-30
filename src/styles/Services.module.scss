@@ -43,6 +43,11 @@ $grey: #C4C4C4;
             .button1:hover {
                 cursor: pointer;
             }
+            a {
+                color: $white;
+                outline: none;
+                text-decoration: none;
+            }
         }
         .trash {
             display: inline-block;

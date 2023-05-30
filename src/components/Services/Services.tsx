@@ -3,15 +3,17 @@ import trash from '../../assets/images/trash.png'
 import questionmark from '../../assets/images/questionmark.png'
 import styles from '../../styles/Services.module.scss'
 import { Routes, Route } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Continue from '../Services/Continue'
 const Services = () => {
-  return (
+  return ( 
 <div className={styles.services}>
 <div className={styles.block1}>
 <div className={styles.block1_text}>
     <div className={styles.b1_t1}><b>Вывезем</b> ваш мусор и <b>отсортируем</b></div>
     <div className={styles.b1_t2}>Наша команда вывезет и отсортирует ваш мусор</div>
-    <button className={styles.button1}>продолжить</button>
+    <button className={styles.button1}><Link to='/continue'>продолжить</Link> </button>
+    
 </div>
 <img src={trash} className="trash" alt=''/> 
 </div>
@@ -22,9 +24,12 @@ const Services = () => {
 </div>
 <img src={questionmark} className="questionmark" alt=''/> 
 </div>
+<Routes>
+<Route path='/continue' element={<Continue/>}/>
+</Routes>
 </div>
   );
-
+  
 }
 
 export default Services
