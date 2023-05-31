@@ -24,9 +24,7 @@ const Services = () => {
 </div>
 <img src={questionmark} className="questionmark" alt=''/> 
 </div>
-<Routes>
-<Route path='/continue' element={<Continue/>}/>
-</Routes>
+
 </div>
   );
   
