@@ -17,7 +17,7 @@ export const links = [
     },
     {
         name:'Зачем',
-        link:'/socia-lvalue'
+        link:'/social-value'
     },
     {
         name:'Услуги',

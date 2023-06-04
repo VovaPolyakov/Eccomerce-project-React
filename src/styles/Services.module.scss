@@ -1,0 +1,99 @@
+$black: #000000;
+$white: #FFFF;
+$grey: #C4C4C4;
+.services {
+    .block1 {
+        .block1_text {
+            vertical-align: top;
+            width: 377px;
+            height: 252px;
+            background-color: $white;
+            display: inline-block;
+            margin-left: 290px;
+            padding-left: 24px;
+            .b1_t1 {
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-size: 25px;
+                line-height: 28px;
+                padding-top: 21px;
+            }
+            .b1_t2 {
+                padding-top: 20px;
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+            .button1 {
+                width: 231px;
+                height: 39px;
+                padding-bottom: 11px;
+                background-color: $black;
+                margin-top: 45px;
+                color: $white;
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                text-align: center;
+                padding-top: 11px;
+                border: none;
+            }
+            .button1:hover {
+                cursor: pointer;
+            }
+            a {
+                color: $white;
+                outline: none;
+                text-decoration: none;
+            }
+        }
+        .trash {
+            display: inline-block;
+        }
+    }
+    .block2 {
+        margin-top: 17px;
+        .block2_text {
+            vertical-align: top;
+            width: 377px;
+            height: 252px;
+            background-color: $white;
+            display: inline-block;
+            margin-left: 290px;
+            padding-left: 24px;
+            .b2_t1 {
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 28px;
+                padding-top: 21px;
+            }
+            .button2 {
+                height: 39px;
+                background-color: $grey;
+                color: $white;
+                margin-top: 137px;
+                padding-bottom: 11px;
+                padding-top: 11px;
+                width: 231px;
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 17px;
+                text-align: center;
+                border: none;
+            }
+            .button2:hover {
+                cursor: pointer;
+            }
+        }
+        .questionmark {
+            display: inline-block;
+        }
+    }
+}

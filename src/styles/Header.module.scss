@@ -1,13 +1,11 @@
 $black: #000000;
 $grey: #DBDBDB;
-
-
-.header{
+.header {
     margin-bottom: 50px;
-    .container{
+    .container {
         width: 80%;
         margin: 0 auto;
-        .header_row{
+        .header_row {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -17,18 +15,18 @@ $grey: #DBDBDB;
                 width: 50%;
                 display: flex;
                 align-items: center;
-                button{
+                button {
                     border: none;
                     outline: none;
                     background: $grey;
-                    padding: 6px 15px ;
+                    padding: 6px 15px;
                     cursor: pointer;
                 }
-                input{
+                input {
                     background: $grey;
                     cursor: pointer;
                     width: 100%;
-                    padding: 6px 0 ;
+                    padding: 6px 0;
                     border: none;
                     outline: none;
                     font-size: 20px;
@@ -38,10 +36,10 @@ $grey: #DBDBDB;
                         font-size: 20px;
                         line-height: 22px;
                         color: #000000;
-                      }
+                    }
                 }
             }
-            .header_lan{
+            .header_lan {
                 font-family: 'PT Mono';
                 background: $black;
                 padding: 7px 10px;
@@ -51,6 +49,9 @@ $grey: #DBDBDB;
                 color: #FFFFFF;
                 outline: none;
                 border: none;
+            }
+            .header_lan:hover {
+                cursor: pointer;
             }
         }
     }

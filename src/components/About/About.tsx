@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className={styles.about}>
     <div className={styles.bird}>
-    <img src={bird} className="bird" alt=''></img> 
+    <img src={bird} className="bird" alt=''/> 
     </div>
     <div className={styles.about_text}>
     <b>RUBBISH</b> это сайт где вы сможете найти всю информацию о <b>сортировке мусора</b>,
