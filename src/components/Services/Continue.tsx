@@ -18,7 +18,7 @@ const Continue = () => {
     <input className={styles.form1} placeholder="Ваш адрес"></input>
     <input className={styles.form2} placeholder="Номер телефона"></input></form>
         </div>
-        <button className={styles.button3}><Link to='/done'>Оформить</Link> 
+        <button className={styles.button3}><Link to='/services/continue/done'>Оформить</Link> 
             </button>
     </div>
     <img src={fulltrash} className="trash" alt=''/> 
