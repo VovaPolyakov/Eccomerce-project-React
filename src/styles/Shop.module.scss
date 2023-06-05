@@ -34,3 +34,50 @@ $red: #FF0000;
         }
     }
 }
+
+.men_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 60px 0px 60px;
+    .men_item{
+        width: 30%;
+        margin: 30px 15px;
+        text-decoration: none;
+        img{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+        .item_name{
+            font-family: 'PT Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 17px;
+            color: #000000;
+            text-decoration: none;
+        }
+        .item_info{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            .info_type{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 17px;
+                color: #000000;
+            }
+            .info_cost{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 22px;
+                color: #000000;
+            }
+        }
+    }
+}
