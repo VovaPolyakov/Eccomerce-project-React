@@ -10,6 +10,7 @@ import shop from '../../assets/images/shop.png'
 import arrow from '../../assets/images/arrow.png'
 import sale_bg from '../../assets/images/sale_bg.png'
 import sale from '../../assets/images/sale 30%.png'
+import { Link } from 'react-router-dom'
 
 const Default = () => {
   return (
@@ -34,7 +35,7 @@ const Default = () => {
             <div className={styles.default_block_bottom}>
                 <div className={styles.left_info}>
                     <img src={map} alt='map' className={styles.bottom_map}></img>
-                    <img src={shop} alt='shop' className={styles.botto_shop}></img>
+                    <img src={shop} alt='shop' className={styles.bottom_shop}></img>
                     <div className={styles.bottom_info}>
                         <div className={styles.info_street}>
                             <p>ул. Богдановича 13</p>
@@ -64,7 +65,9 @@ const Default = () => {
                         <img src={sale} alt='sale'></img>
                     </div>
                     <button>
-                        <img src={arrow} alt='arrow'></img>
+                        <Link to='/shop/sale'>
+                            <img src={arrow} alt='arrow'></img>
+                        </Link>
                     </button>
                 </div>
             </div>

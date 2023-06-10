@@ -1,7 +1,3 @@
-import tshirt from '../images/t-shirt.jpg'
-import shorts from '../images/shorts.jpg'
-import sweetshot from '../images/sweetshot.jpg'
-import hoodie from '../images/hoodie.jpg'
 
 export const men = [
     {

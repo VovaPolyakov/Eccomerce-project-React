@@ -80,4 +80,159 @@ $red: #FF0000;
             }
         }
     }
+    .men_item_sale{
+        width: 30%;
+        margin: 30px 15px;
+        text-decoration: none;
+        img{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+        .item_name_cost{
+            display: flex;
+            justify-content: space-between;
+            .item_name{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 17px;
+                color: #000000;
+                text-decoration: none;
+            }
+            .item_cost{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 17px;
+                color: #919191;
+                margin-right: 20px;
+                text-decoration: line-through;
+            }
+        }
+        .item_info{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            .info_type{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 17px;
+                color: #000000;
+            }
+            .info_withSale{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 22px;   
+                color: #FF0000;
+            }
+        }
+    }
+}
+
+
+.women_row, .sale_row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 60px 0px 60px;
+    .women_item{
+        width: 30%;
+        margin: 30px 15px;
+        text-decoration: none;
+        img{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+        .item_name{
+            font-family: 'PT Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 17px;
+            color: #000000;
+            text-decoration: none;
+        }
+        .item_info{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            .info_type{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 17px;
+                color: #000000;
+            }
+            .info_cost{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 22px;
+                color: #000000;
+            }
+        }
+    }
+    .women_item_sale, .sale_item{
+        width: 30%;
+        margin: 30px 15px;
+        text-decoration: none;
+        img{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+        }
+        .item_name_cost{
+            display: flex;
+            justify-content: space-between;
+            .item_name{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 17px;
+                color: #000000;
+                text-decoration: none;
+            }
+            .item_cost{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 17px;
+                color: #919191;
+                margin-right: 20px;
+                text-decoration: line-through;
+            }
+        }
+        .item_info{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            .info_type{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 17px;
+                color: #000000;
+            }
+            .info_withSale{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 22px;   
+                color: #FF0000;
+            }
+        }
+    }
 }
