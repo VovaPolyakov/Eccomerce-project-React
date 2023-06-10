@@ -29,6 +29,9 @@ const Main = () => {
         <Route path='/shop/men' element={<Men/>}/>
         <Route path='/shop/women' element={<Women/>}/>
         <Route path='/shop/sale' element={<Sale/>}/>
+        <Route path='/services/continue' element={<Continue/>}/>
+        <Route path='/services/continue/done' element={<Done/>}/>
+        <Route path='/shop/men' element={<Men/>}/>
     </Routes>
   )
 }
