@@ -10,6 +10,8 @@ import Services from '../Services/Services';
 import Continue from "../Services/Continue";
 import Done from '../Services/Done';
 import Men from "../Shop/Men";
+import Women from '../Shop/Women'
+import Sale from '../Shop/Sale'
 
 const Main = () => {
   return (
@@ -25,6 +27,8 @@ const Main = () => {
         <Route path='/services/continue' element={<Continue/>}/>
         <Route path='/services/continue/done' element={<Done/>}/>
         <Route path='/shop/men' element={<Men/>}/>
+        <Route path='/shop/women' element={<Women/>}/>
+        <Route path='/shop/sale' element={<Sale/>}/>
     </Routes>
   )
 }

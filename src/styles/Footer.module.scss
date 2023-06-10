@@ -1,0 +1,21 @@
+.footer{
+    margin-top: 100px;
+    background: linear-gradient(314.03deg, #757575 -11.99%, #000000 93.84%);
+    .footer_container{
+        width: 83%;
+        margin: 0 auto;
+        .footer_row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px  0;
+            .footer_logo{
+
+            }
+            .footer_info{
+                color: #FFFFFF;
+                text-align: right;
+            }
+        }
+    }
+}

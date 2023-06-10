@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../../styles/Shop.module.scss'
 import { Link} from 'react-router-dom'
-import ShopRouter from './ShopRouter'
 import Default from './Default'
 import Main from '../Main/Main'
 import HeaderShop from './HeaderShop'
