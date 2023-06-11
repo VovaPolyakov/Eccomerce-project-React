@@ -15,7 +15,7 @@ const Sale = () => {
             <HeaderShop/>
             <div className={styles.sale_row}>
                 {sale.map((item,index:any) => (
-                  <Link to={`/shop/women/${index + 1}`} className={styles.sale_item}>
+                  <Link to={`/shop/${item.gender}/${item.id}`} className={styles.sale_item}>
                   <img src={item.image} alt={item.type}></img>
                   <div className={styles.item_name_cost}>
                       <div className={styles.item_name}>{item.name}</div>
@@ -25,7 +25,7 @@ const Sale = () => {
                       <div className={styles.info_type} >{item.type}</div>
                       <div className={styles.info_withSale}>{item.withSale} руб.</div>
                   </div>
-            </Link>
+                </Link>
                 ))}
             </div>
         </div>
