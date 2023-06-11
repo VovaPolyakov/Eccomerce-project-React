@@ -20,7 +20,7 @@ const Men = () => {
             <HeaderShop/>
             <div className={styles.men_row}>
                 {men.map((item,index:any) => (
-                    <Link to={`/shop/men/${index + 1}`} className={styles.men_item}>
+                    <Link to={`/shop/men/${item.id}`} className={styles.men_item}>
                         <img src={item.image} alt={item.type}></img>
                         <div className={styles.item_name}>
                             {item.name}

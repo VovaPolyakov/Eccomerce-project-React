@@ -16,7 +16,7 @@ const Men = () => {
             <HeaderShop/>
             <div className={styles.women_row}>
                 {women.map((item,index:any) => (
-                    <Link to={`/shop/women/${index + 1}`} className={styles.women_item}>
+                    <Link to={`/shop/women/${item.id}`} className={styles.women_item}>
                         <img src={item.image} alt={item.type}></img>
                         <div className={styles.item_name}>
                             {item.name}
