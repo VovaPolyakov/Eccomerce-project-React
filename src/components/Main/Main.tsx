@@ -9,6 +9,10 @@ import Socialvalue from '../Socialvalue/Socialvalue';
 import Services from '../Services/Services';
 import Continue from "../Services/Continue";
 import Done from '../Services/Done';
+import Women from '../Shop/Women'
+import Sale from '../Shop/Sale'
+import Men from "../Shop/Men";
+import Item from "../Shop/Item";
 
 const Main = () => {
   return (
@@ -21,8 +25,12 @@ const Main = () => {
         <Route path='/services' element={<Services/>}/>
         <Route path='/contacts' element={<Contacts/>}/> 
         <Route path='/shop' element={<Shop/>}/>
-        <Route path='/continue' element={<Continue/>}/>
-        <Route path='/done' element={<Done/>}/>
+        <Route path='/services/continue' element={<Continue/>}/>
+        <Route path='/services/continue/done' element={<Done/>}/>
+        <Route path='/shop/men' element={<Men/>}/>
+        <Route path='/shop/women' element={<Women/>}/>
+        <Route path='/shop/sale' element={<Sale/>}/>
+        <Route path='/shop/:gender/:id' element={<Item/>}/>
     </Routes>
   )
 }

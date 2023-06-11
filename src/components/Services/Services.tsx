@@ -5,7 +5,6 @@ import styles from '../../styles/Services.module.scss'
 import { Routes, Route } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import Continue from '../Services/Continue'
-import fetch from 'node-fetch'
 const Services = () => {
   return ( 
 <div className={styles.services}>
@@ -13,7 +12,7 @@ const Services = () => {
 <div className={styles.block1_text}>
     <div className={styles.b1_t1}><b>Вывезем</b> ваш мусор и <b>отсортируем</b></div>
     <div className={styles.b1_t2}>Наша команда вывезет и отсортирует ваш мусор</div>
-    <Link to='/continue'><button className={styles.button1}>продолжить </button></Link>
+    <button className={styles.button1}><Link to='/services/continue'>продолжить</Link> </button>
     
 </div>
 <img src={trash} className="trash" alt=''/> 

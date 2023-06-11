@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar/NavBar";
 import About from "./components/About/About";
 import Main from "./components/Main/Main";
 import './index.css';
+import Footer from './components/Footer/Footer'
 
 function App() {
   return <>
@@ -13,6 +14,7 @@ function App() {
         <NavBar/>
         <Main/>
       </div>
+      <Footer/>
     </BrowserRouter>
   </>;
 }
