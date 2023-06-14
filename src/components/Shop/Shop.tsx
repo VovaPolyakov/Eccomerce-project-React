@@ -12,7 +12,6 @@ const Shop = () => {
               <HeaderShop/>
               <div>
                 <Default/>
-                <Main/>
               </div>
           </div>
       </div>

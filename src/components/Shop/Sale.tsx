@@ -15,7 +15,7 @@ const Sale = () => {
             <HeaderShop/>
             <div className={styles.sale_row}>
                 {sale.map((item,index:any) => (
-                  <Link to={`/shop/${item.gender}/${item.id}`} className={styles.sale_item}>
+                  <Link state={item.id} to={`/shop/${item.gender}/${item.id}`} className={styles.sale_item}>
                   <img src={item.image} alt={item.type}></img>
                   <div className={styles.item_name_cost}>
                       <div className={styles.item_name}>{item.name}</div>

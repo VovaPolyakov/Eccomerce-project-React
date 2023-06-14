@@ -7,16 +7,20 @@ import wtshirt from '../images/wt-shirt.jpg'
 import panama from '../images/panama.jpg'
 import bag from '../images/bag.jpg'
 import bag2 from '../images/bag2.jpg'
+import ts_shirt from '../images/t-shirt.jpg'
+import jpgt_shirt from '../images/jpg-shirt.jpg'
 
 export const clothing = [
     {
         id:1,
         sale:false,
         gender:'men',
-        image:tshirt,
+        image:jpgt_shirt,
         name:'Styssy',
         type:'Футболка',
-        cost:259
+        cost:259,
+        amount:true,
+        size:['M','L','XL','XXL']
     },
     {
         id:2,
@@ -25,7 +29,9 @@ export const clothing = [
         image:sweetshot,
         name:'Styssy',
         type:'Свитшот',
-        cost:309
+        cost:309,
+        amount:true,
+        size:['M','L','XL','XXL']
     },
     {
         id:3,
@@ -34,7 +40,9 @@ export const clothing = [
         image:shorts,
         name:'A-COLD-WALL',
         type:'Шорты',
-        cost:799
+        cost:799,
+        amount:false,
+        size:['M','L','XXL'],
     },
     {
         id:4,
@@ -44,7 +52,9 @@ export const clothing = [
         name:'A-COLD-WALL',
         type:'Худи',
         cost:899,
-        withSale:500
+        withSale:500,
+        amount:true,
+        size:['M','L','XL','XXL']
     },
     {
         id:5,
@@ -53,7 +63,9 @@ export const clothing = [
         image:panama,
         name:'JACQUEMUS',
         type:'Панама',
-        cost:219
+        cost:219,
+        amount:true,
+        size:['M','L','XL','XXL']
     },
     {
         id:6,
@@ -62,7 +74,9 @@ export const clothing = [
         image:bag,
         name:'JACQUEMUS',
         type:'Сумка',
-        cost:2999
+        cost:2999,
+        amount:true,
+        size:['M','L','XL','XXL']
     },
     {
         id:7,
@@ -71,7 +85,9 @@ export const clothing = [
         image:wtshirt,
         name:'ACNE-STUDIOS',
         type:'Футболка',
-        cost:499
+        cost:499,
+        amount:true,
+        size:['M','L','XL','XXL']
     },
     {
         id:8,
@@ -80,7 +96,9 @@ export const clothing = [
         image:wshorts,
         name:'MISBHV',
         type:'Шорты',
-        cost:399
+        cost:399,
+        amount:false,
+        size:['M']
     },
     {
         id:9,
@@ -90,6 +108,8 @@ export const clothing = [
         name:'JACQUEMUS',
         type:'Сумка',
         cost:2000,
-        withSale:1399
+        withSale:1399,
+        amount:true,
+        size:['M','L','XL','XXL']
     },
 ];

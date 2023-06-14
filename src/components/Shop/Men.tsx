@@ -10,17 +10,13 @@ const Men = () => {
     const men = clothing.filter((item) => item.gender == 'men' && item.sale == false)
     const menSale = clothing.filter((item) => item.gender == 'men' && item.sale)
 
-    console.log(menSale)
-
-    console.log(men)
-
   return (
     <div className={styles.shop}>
         <div className={styles.row}>
             <HeaderShop/>
             <div className={styles.men_row}>
                 {men.map((item,index:any) => (
-                    <Link to={`/shop/men/${item.id}`} className={styles.men_item}>
+                    <Link state={item.id}  to={`/shop/men/${item.id}`} className={styles.men_item}>
                         <img src={item.image} alt={item.type}></img>
                         <div className={styles.item_name}>
                             {item.name}
@@ -32,7 +28,7 @@ const Men = () => {
                     </Link>
                 ))}
                 {menSale ? menSale.map((item,index) => (
-                    <Link to={`/shop/men/${index + 1}`} className={styles.men_item_sale}>
+                    <Link state={item.id} to={`/shop/men/${item.id}`} className={styles.men_item_sale}>
                         <img src={item.image} alt={item.type}></img>
                         <div className={styles.item_name_cost}>
                             <div className={styles.item_name}>{item.name}</div>
@@ -42,7 +38,7 @@ const Men = () => {
                             <div className={styles.info_type} >{item.type}</div>
                             <div className={styles.info_withSale}>{item.withSale} руб.</div>
                         </div>
-                </Link>
+                    </Link>
                 )) : ''}
             </div>
         </div>
