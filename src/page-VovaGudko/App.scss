@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+* {
+    font-family: 'PT Mono', monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+};
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+li {
+    padding-bottom: 10%;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+// Contacts
+
+.Info {
+    margin-top: 2%;
+    display: flex;
+
+}
+
+.Contacts {
+    margin-left: 10%;
+
+}
+
+.Contact-Main {
+    display: flex;
+    padding-top: 40%;
+    margin-right: -70%;
+    
+}
+
+.Contact-List-1{
+    padding-right: 20%;
+
+}
+
+.Contact-List-2 {
+    margin-right: 10%;
+    padding-top: 25%;
+    width: 50%;
+    font-size: 15px;
+
+}
+
+.Contact-Button {
+    margin-top: 5%;
+    background-color: black;
+    padding: 1%;
+    color: white;
+    width: 75%;
+    height: 8%;
+    font-size: 20px;
+}
+
+.Contact-List-1-li{
+    font-size: 20px;
+    padding-bottom: 25%;
+}
+
+
+// Navigation
+
+.Nav {
+    
+    width: 50%;
+    margin-left: 15%;
+    padding-top: 1%;
+    display: flex;
+}
+
+.Searchbar {
+    background-color:rgb(191, 187, 187);
+    width: 100%; 
+    margin-right: 10%;
+    height: 6%;
+    display: flex;
+    
+}
+
+.Searchbar-Text {
+    padding-top: 1.5%;
+    padding-left: 15%;
+}
+
+.Search {
+    padding: 1%;
+}
+
+.small-logo {
+    width: 5%;
+    height: 6%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 20px;
+};
+
+// Main-Blocks, 1
+
+.Main-Block-1 {
+    position: absolute;
+    left: 41.5%;
+    top: 30%;
+}
+
+.Main-Title-1 {
+    font-size: 30px;
+    display: flex;
+}
+
+.Main-Arrow-1 {
+    position: absolute;
+    top: -10%;
+    left: 25%;
+}
+
+.Main-Text-1 {
+    display: flex;
+    margin-top: 5%;
+}
+
+.Main-Text-Text-1 {
+    max-width: 45%;
+    font-size: 25px;
+    text-align: end;
+}
+
+.Rectangle-Yellow {
+    padding-left: 10%;
+}
+
+.Rectangle-Yellow-Color {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 20%;
+}
+
+//2
+
+.Main-Block-2 {
+    margin-left: 41.5%;
+}
+
+.Main-Title-2-1 {
+    margin-top: 1%;
+    padding-left: 1%;
+    font-size: 25px;
+}
+
+.Main-Text-2-1{
+    margin-top: 3.5%;
+    max-width: 75%;
+    display: block;
+    font-size: 20px;
+
+
+}
+
+.Main-Title-2-2 {
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.Main-Text-2-2{
+    margin-top: 2.5%;
+    max-width: 77%;
+    display: block;
+    font-size: 20px;
+}
+
+//3
+
+.Main-Title-2-3 {
+    margin-top: 5%;
+    padding-left: 1%;
+    font-size: 25px;
+}
+
+.Main-Text-2-3{
+    margin-top: 3.5%;
+    max-width: 79%;
+    display: block;
+    font-size: 20px;
+}
+
+//4
+
+.Main-Title-2-4 {
+    margin-top: 5%;
+    padding-left: 1%;
+    font-size: 25px;
+}
+
+.Main-Text-2-4{
+    margin-top: 2.5%;
+    max-width: 80%;
+    display: block;
+    font-size: 20px;
+}
+
+//5
+
+.Main-Block-3 {
+    position: absolute;
+    left: 41.5%;
+    padding-top: 3%;
+    font-size: 25px;
+
+}
+
+.Main3-Arrow {
+    position: absolute;
+    padding-top: 8%;
+}
+
+.Rectangle-Green {
+    padding-left: 3.25%;
+}
+
+.Main-Block-Text-3 {
+    display: flex;
+    margin-top: 5%;
+
+}
+
+.Main-Block-Text-Text-3 {
+    max-width: 40%;
+    font-size: 25px;
+    text-align: end;
+
+}
+
+.Rectangle-Green-Title {
+    text-align: center;
+    font-size: 15px;
+}
+
+// 6
+
+.Main-Block-4 {
+    position: absolute;
+    left: 41.5%;
+    margin-top: 40%;
+    font-size: 25px;
+
+}
+
+.Main4-Arrow {
+    position: absolute;
+    padding-top: 6%;
+}
+
+.Rectangle-Blue {
+    padding-left: 3.25%;
+}
+
+.Main-Block-Text-4 {
+    display: flex;
+    margin-top: 5%;
+
+}
+
+.Main-Block-Text-Text-4 {
+    max-width: 40%;
+    font-size: 25px;
+    text-align: end;
+
+}
+
+.Rectangle-Blue-Title {
+    text-align: center;
+    font-size: 15px;
+}
+
+// 7
+
+.Main-Block-5 {
+    position: absolute;
+    left: 41.5%;
+    margin-top: 80%;
+}
+
+.Main-Title-5 {
+    font-size: 30px;
+    display: flex;
+}
+
+.Main-Arrow-5 {
+    position: absolute;
+    top: -10%;
+    left: 25%;
+}
+
+.Main-Text-5 {
+    display: flex;
+    margin-top: 5%;
+}
+
+.Main-Text-Text-5 {
+    max-width: 45%;
+    font-size: 25px;
+    text-align: end;
+}
+
+.Rectangle-Red {
+    padding-left: 10%;
+}
+
+.Rectangle-Red-Color {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 20%;
+}
+
+// 8
+
+
+.Main-Block-6 {
+    position: absolute;
+    left: 41.5%;
+    margin-top: 120%;
+    font-size: 25px;
+
+}
+
+.Main5-Arrow {
+    position: absolute;
+    padding-top: 5%;
+    margin-right: 2%;
+}
+
+.Rectangle-Black {
+    padding-left: 3.25%;
+}
+
+.Main-Block-Text-6 {
+    display: flex;
+    margin-top: 5%;
+
+}
+
+.Main-Block-Text-Text-6 {
+    max-width: 40%;
+    font-size: 25px;
+    text-align: end;
+
+}
+
+.Rectangle-Black-Title {
+    text-align: center;
+    font-size: 15px;
+}
+
+.Main-Block-6-Bottom-Text {
+    text-align: center;
+    font-size: 20px;
+    max-width: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+// Footer
+
+.Footer {
+    color:white;
+    margin-top: 160%;
+    background-image: url(./images/FooterImg.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Footer-Logo {
+    padding-top: 2%;
+    padding: 2.5%;
+}
+
+.Footer-Contacts {
+    text-align: end;
+    margin-left: 60%;
+    padding-top: 2%;
+    padding: 2.5%;
+}
