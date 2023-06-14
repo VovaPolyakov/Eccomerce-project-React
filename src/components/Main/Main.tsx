@@ -17,6 +17,7 @@ import Item from "../Shop/Item";
 const Main = () => {
   return (
     <Routes>
+        <Route path='/' element={<About/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/concept' element={<Concept/>}/>
         <Route path='/sorting'/>

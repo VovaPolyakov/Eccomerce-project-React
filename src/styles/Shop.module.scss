@@ -13,6 +13,7 @@ $red: #FF0000;
             display: flex;
             align-items: center;
             justify-content: space-around;
+            padding: 0 80px;
             .shop_link{
                 cursor: pointer;
             }
@@ -28,6 +29,11 @@ $red: #FF0000;
                 color: #000000;
                 border: none;
             }
+            .button_men_active,.button_women_active,.button_sale_active{
+                background-color: black;
+                color: #ffff;
+            }
+            
             .shop_cart{
                 cursor: pointer;
             }
@@ -232,6 +238,102 @@ $red: #FF0000;
                 font-size: 20px;
                 line-height: 22px;   
                 color: #FF0000;
+            }
+        }
+    }
+}
+
+.wear{
+    margin-top: 60px;
+    .wear_row{
+        display: flex;
+        justify-content: space-around;
+        .wear_image{
+            img{
+                width: 550px;
+                height: 550px;
+            }
+        }
+        .wear_info{
+            margin-top: 40px;
+            h1{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 34px;
+                color: #000000;
+                padding: 0 30px;
+            }
+            p{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 22px;
+                color: #000000;
+                padding: 0 30px;
+            }
+            .info_amount{
+                padding: 0 30px;
+                .info_am{
+                    display: flex;
+                    align-items: center;
+                    p{
+                        margin-left: 25px;
+                        font-family: 'PT Mono';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        color: #000000;
+                        padding: 0;
+                    }
+                }
+                .checkbox_green{
+                    width: 12px;
+                    height: 12px;
+                    background: #00FF47;
+                }
+                .checkbox_red{
+                    width: 12px;
+                    height: 12px;
+                    background: #ff3700;
+                }
+            }
+            .info_cost{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 34px;
+                color: #000000
+            }
+            .info_size{
+                display: flex;
+                justify-content: left;
+                border: 1px solid #000000;
+                width: max-content;
+                .info_size_button{
+                    padding:10px 28px;
+                    border: none;
+                    cursor: pointer;
+                }
+                .info_size_button_active{
+                    padding:10px 28px;
+                    border: none;
+                    cursor: pointer;
+                    background-color: #000000;
+                    color: #ffff;
+                }
+            }
+            .info_buy{
+                margin-top: 30px;
+                background-color: #000000;
+                color: #ffff;
+                outline: none;
+                border: none;
+                padding: 10px 82px;
+                cursor: pointer;
             }
         }
     }

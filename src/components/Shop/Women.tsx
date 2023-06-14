@@ -16,7 +16,7 @@ const Men = () => {
             <HeaderShop/>
             <div className={styles.women_row}>
                 {women.map((item,index:any) => (
-                    <Link to={`/shop/women/${item.id}`} className={styles.women_item}>
+                    <Link state={item.id} to={`/shop/women/${item.id}`} className={styles.women_item}>
                         <img src={item.image} alt={item.type}></img>
                         <div className={styles.item_name}>
                             {item.name}
@@ -28,7 +28,7 @@ const Men = () => {
                     </Link>
                 ))}
                 {womenSale ? womenSale.map((item,index) => (
-                    <Link to={`/shop/women/${index + 1}`} className={styles.women_item_sale}>
+                    <Link state={item.id} to={`/shop/women/${item.id}`} className={styles.women_item_sale}>
                         <img src={item.image} alt={item.type}></img>
                         <div className={styles.item_name_cost}>
                             <div className={styles.item_name}>{item.name}</div>

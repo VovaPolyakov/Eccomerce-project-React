@@ -6,7 +6,10 @@ import Main from "./components/Main/Main";
 import './index.css';
 import Footer from './components/Footer/Footer'
 
+
+
 function App() {
+
   return <>
     <BrowserRouter>
       <Header/>
