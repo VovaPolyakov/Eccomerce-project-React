@@ -30,9 +30,29 @@ export const userSlice = createSlice({
     }
 })
 
+
+export const servicesSlice = createSlice({
+    name:'services',
+    initialState:{
+        data:[]
+    },
+    reducers:{
+        addServices: (state:any,action) => {
+            console.log(action.payload)
+            state.data.push(action.payload)
+        },
+        deleteUser: (state,action) => {
+            state.data = []
+        }
+    }
+})
+
+export const servicesActions = servicesSlice.actions;
+export const servicesReducer = servicesSlice.reducer;
+
 export const userActions = userSlice.actions;
-export const userReducer = userSlice.reducer
+export const userReducer = userSlice.reducer;
 
 
 export const shopActions = shopSlice.actions;
-export const shopReducer = shopSlice.reducer
+export const shopReducer = shopSlice.reducer;

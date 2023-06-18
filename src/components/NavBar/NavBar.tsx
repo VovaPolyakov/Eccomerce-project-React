@@ -14,7 +14,7 @@ const NavBar = () => {
 
   const dispatch = useDispatch()
   const items = useSelector((state:any) => state.user);
-  console.log(items.data)
+  console.log(items.data.length === 0)
 
   const handleSignOut = async (e:React.MouseEvent<HTMLElement>) => {
     e.preventDefault()
@@ -33,8 +33,8 @@ const NavBar = () => {
           {links.map((link) => (
             <li className={styles.nav_link} key={link.name}><Link to={link.link}>{link.name}</Link></li>
           ))}
-          {items.data.lenght === 0 ? 
-          <button onClick={handleSignOut} className={styles.nav_button}>Выйти</button>
+          {items.data.length !== 0 ? 
+            <Link to='/accept'><button className={styles.nav_button}>Aккаунт</button></Link>
             :
             <Link to='/login'><button className={styles.nav_button}>Войти</button></Link>
           }

@@ -38,6 +38,7 @@
                     margin-bottom: 40px;
                 }
                 .form_submit{
+                    width: 100%;
                     background: #000000;
                     padding: 10px 0px;
                     font-family: 'PT Mono';
@@ -140,5 +141,100 @@
         font-size: 20px;
         line-height: 22px;
         color: #000000;
+    }
+}
+
+.accept{
+    margin: 0 auto;
+    width: 700px;
+    .accept_row{
+        .orders{
+            display: flex;
+            justify-content: space-between;
+            p{
+                font-family: 'PT Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 17px;
+                color: #000000;
+            }
+            .services{
+                .shop_notfound{
+                    margin-top: 70px;
+                    font-family: 'PT Mono';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 35px;
+                    line-height: 39px;
+                    color: #838383;
+                }
+                .services_info{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .services_info_cost{
+                        margin-left: 10px;
+                        padding: 20px 0px;
+                        span{
+                            font-family: 'PT Mono';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 25px;
+                            line-height: 22px;
+                            color: #000000;
+                            padding-left: 15px;
+                        }
+                    }
+                    .services_info_street{
+                        margin-left: 20px;
+                        padding: 20px 0px;
+                    }
+                    .services_info_courier{
+                        margin-left: 30px;
+                        padding: 20px 0px;
+                    }
+                } 
+            }
+            .shop{
+                .shop_notfound{
+                        margin-top: 70px;
+                        font-family: 'PT Mono';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 35px;
+                        line-height: 39px;
+                        color: #838383;
+                }
+                .shop_info{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .shop_info_name{
+                        margin-left: 20px;
+                        padding: 20px 0px;
+                    }
+                    .shop_info_type{
+                        margin-left: 30px;
+                        padding: 20px 0px;
+                    }
+                    .shop_info_cost{
+                        margin-left: 10px;
+                        padding: 20px 0px;
+                        span{
+                            font-family: 'PT Mono';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 25px;
+                            line-height: 22px;
+                            color: #000000;
+                            padding-left: 15px;
+                        }
+                    }
+
+                }
+            }
+        }
     }
 }

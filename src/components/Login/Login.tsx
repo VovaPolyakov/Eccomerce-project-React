@@ -13,7 +13,6 @@ const Login = () => {
   const dispatch = useDispatch()
 
   const handleSubmit = async (e:React.MouseEvent<HTMLElement>) => {
-    e.preventDefault()
     try {
       const auth = getAuth();
       const userCredentials =  await signin(auth,login,password)
@@ -32,7 +31,7 @@ const Login = () => {
                 <input className={styles.form_login} onChange={(e) => {setLogin(e.target.value)}} placeholder='Почта' type='email' required></input>
                 <p>Пароль</p>
                 <input className={styles.form_pass} onChange={(e) => {setPassword(e.target.value)}} placeholder='Пароль' type='password' required></input>
-                <button className={styles.form_submit} onClick={handleSubmit} type='submit'>Войти</button>
+                <Link to='/accept' onClick={handleSubmit}><button className={styles.form_submit}  type='submit'>Войти</button></Link>
               </form>
               <p className={styles.login_forgot}>Нет аккаунта? <Link to='/signup'>Зарегистрируйся</Link></p>
           </div>

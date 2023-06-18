@@ -29,7 +29,7 @@ const Item = () => {
   console.log(selectSize)
 
   const handleAddItem = () => {
-    dispatch(shopActions.addItem([wear[0],selectSize]))
+    dispatch(shopActions.addItem({wear:wear[0],selectSize}))
   }
 
   return (

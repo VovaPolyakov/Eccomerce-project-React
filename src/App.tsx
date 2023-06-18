@@ -12,7 +12,7 @@ import { useEffect } from "react";
 
 
 function App() {
-
+  console.log('323')
   return <>
     <BrowserRouter>
       <Header/>
