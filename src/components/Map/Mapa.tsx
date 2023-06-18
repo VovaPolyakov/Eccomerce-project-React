@@ -47,28 +47,28 @@ const Mapa= () => {
 
         <div className={styles.bodymap}>
         <div className={styles.places}>
-          <div className={styles.leftbg}>ул. богдановича 11</div>
+          <div className={styles.leftbg}>ул. Богдановича 11</div>
           <div className={styles.rightinf}>
             <h2>Банки + пункт приёма</h2>
             <p>8:00-19:00</p>
           </div>
         </div>
         <div className={styles.places}>
-          <div className={styles.leftbg}>ул. богдановича 11</div>
+          <div className={styles.leftbg}>ул. Немига 3</div>
           <div className={styles.rightinf}>
             <h2>Банки + пункт приёма</h2>
             <p>8:00-19:00</p>
           </div>
         </div>
         <div className={styles.places}>
-          <div className={styles.leftbg}>ул. богдановича 11</div>
+          <div className={styles.leftbg}>ул. Карастаянова 15</div>
           <div className={styles.rightinf}>
             <h2>Банки + пункт приёма</h2>
             <p>8:00-19:00</p>
           </div>
         </div>
         <div className={styles.places}>
-          <div className={styles.leftbg}>ул. богдановича 11</div>
+          <div className={styles.leftbg}>ул. Гая 5</div>
           <div className={styles.rightinf}>
             <h2>Банки + пункт приёма</h2>
             <p>8:00-19:00</p>
