@@ -50,7 +50,7 @@
             .left_info{
                 position: relative;
                 .bottom_map{
-                    width: 700px;
+                    width: 600px;
                     height: 470px;
 
                 }
@@ -135,12 +135,14 @@
                 justify-content: space-between;
                 flex-direction: column;
                 background-size: cover;
-                width: 300px;
+                width: 260px;
                 button{
                     cursor: pointer;
                     background: #000000;
                     padding: 12px;
                     margin: 0 20px;
+                    outline: none;
+                    border: none;
                 }
             }
         }

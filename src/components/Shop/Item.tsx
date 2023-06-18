@@ -4,6 +4,8 @@ import {clothing} from '../../assets/shop/shop'
 import styles from '../../styles/Shop.module.scss'
 import HeaderShop from './HeaderShop'
 import classNames from 'classnames'
+import { useDispatch } from 'react-redux'
+import { shopActions } from '../../ducks/shop/shop-slice'
 
 type Clothing = {
   id:number,
@@ -22,8 +24,13 @@ const Item = () => {
   const location = useLocation()
   const wear = clothing.filter((item:Clothing) => item.id === location.state)
   const [selectSize,setSelectSize] = useState<string>('L')
+  const dispatch  = useDispatch()
 
   console.log(selectSize)
+
+  const handleAddItem = () => {
+    dispatch(shopActions.addItem([wear[0],selectSize]))
+  }
 
   return (
     <div className={styles.shop}>
@@ -60,7 +67,7 @@ const Item = () => {
                       </div>
                     ))}
                   </div>
-                  <button className={styles.info_buy}>Добавить в корзину</button>
+                  <button onClick={handleAddItem} className={styles.info_buy}>Добавить в корзину</button>
               </div>
             </div>  
             ))}

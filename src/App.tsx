@@ -5,11 +5,11 @@ import About from "./components/About/About";
 import Main from "./components/Main/Main";
 import './index.css';
 import Footer from './components/Footer/Footer'
+import { useEffect } from "react";
 
 
 
 function App() {
-
   return <>
     <BrowserRouter>
       <Header/>

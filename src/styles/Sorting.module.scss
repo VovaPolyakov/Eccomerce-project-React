@@ -1,0 +1,115 @@
+.sorting_body {
+    margin-left: 200px;
+    span {
+        font-weight: 700;
+    }
+    .yellowarrow {
+        position: absolute;
+        top: -100px;
+        right: 150px;
+    }
+    .greenarrow {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+    .bluearrow {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+    .redarrow {
+        position: absolute;
+        top: -110px;
+        right: 150px;
+    }
+    .name {
+        font-family: 'PT Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .name_mac {
+        font-family: 'PT Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        margin-top: 60px;
+    }
+    .plastic {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+        position: relative;
+        .yellow_block {
+            width: 270px;
+            height: 270px;
+            background: #FFE600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .blue_block {
+            width: 270px;
+            height: 270px;
+            background: #004EC2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .red_block {
+            width: 270px;
+            height: 270px;
+            background: #C20000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .green_block {
+            width: 270px;
+            height: 270px;
+            background: #00C22B;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .plastic_about {
+            width: 55%;
+            font-family: 'PT Mono';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 25px;
+            text-align: right;
+        }
+    }
+    .h3 {
+        font-family: 'PT Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 75px;
+        margin-bottom: 34px;
+    }
+    .h3_mini {
+        font-family: 'PT Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 34px;
+    }
+    .paragraph {
+        font-family: 'PT Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        margin: 0;
+    }
+    .footer_p {
+        font-family: 'PT Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 80px;
+    }
+}
