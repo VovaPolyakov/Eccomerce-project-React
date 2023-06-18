@@ -13,10 +13,20 @@ import Women from '../Shop/Women'
 import Sale from '../Shop/Sale'
 import Men from "../Shop/Men";
 import Item from "../Shop/Item";
+import Login from '../Login/Login'
+import Singup from "../Login/Singup";
+import Map from '../Map/Mapa'
+import Sort from "../Sort/Sort";
+import Cart from "../Cart/Cart";
+import Accept from "../Login/Accept";
 
 const Main = () => {
   return (
     <Routes>
+        <Route path='/accept' element={<Accept/>}/>
+        <Route path='/cart' element={<Cart/>}/>
+        <Route path='/sorting' element={<Sort/>}/>
+        <Route path='/map' element={<Map/>}/>
         <Route path='/' element={<About/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/concept' element={<Concept/>}/>
@@ -32,6 +42,8 @@ const Main = () => {
         <Route path='/shop/women' element={<Women/>}/>
         <Route path='/shop/sale' element={<Sale/>}/>
         <Route path='/shop/:gender/:id' element={<Item/>}/>
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<Singup/>}/>
     </Routes>
   )
 }

@@ -9,8 +9,11 @@ $grey: #DBDBDB;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 40px 0;
+            padding: 50px 0;
             width: 100%;
+            .header_logo{
+                cursor: pointer;
+            }
             .header_search {
                 width: 50%;
                 display: flex;
